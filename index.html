@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanshu's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="left-nav">
+            <b>Priyanshu's Portfolio</b>
+        </div>
+        <div class="right-nav">
+            <ul id="side-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>    
+        </div>
+    </nav>
+    <!-- Home Section -->
+    <section id="home" class="home-body">
+        <div class="left-home">
+            <h2>Hi, <br> My name is <span>Priyanshu Halder</span>,<br> I am <span class="auto-type"></span></h2>
+        </div>
+        <div class="right-home">
+            <img src="Priyanshu pic.pdf.jpg" alt="priyanshu Image">
+        </div>
+        
+    </section>
+    <hr>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-left">
+            <h1>About</h1>
+        </div>
+        <div class="project">
+            <div class="section-right">
+            <div class="part-one">
+                <h2>Summary</h2>
+                <p>I am an organized, efficient, and hardworking person. I am open to learning new ideas and finding ways to use
+                    them effectively</p>
+            </div>
+        </div>
+        
+            <div class="part-two">
+                <h2>Achievements</h2>
+                <ul>
+                    <li>Winner of Art Competition Secured 1st position in an school-level drawing competition.</li>
+                    <li>Solved DSA problems on platforms like LeetCode, HackerRank.</li>
+                </ul>
+                <!-- <a href="Priyanshu Halder Resume.pdf" download="Priyanshu Halder Resume.pdf" class="cv-button">Download CV</a> -->
+                <a href="Priyanshu Halder Resume.pdf" target="_blank" class="cv-button">View CV</a>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skill">
+        <h1>Skills</h1>
+        <div class="skill-container">
+            <div class="skill-box">
+                <h2>Coursework</h2>
+                <ul>
+                    <li>Data Structures & Algorithms</li>
+                    <li>Object-Oriented Programming</li>
+                    <li>Frontend Development</li>
+                    <li>Database Management System</li>
+                </ul>
+            </div>
+            <div class="skill-box">
+                <h2>Programming Skills</h2>
+                <ul>
+                    <li>Java</li>
+                    <li>C - Language</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="project-header">
+            <h1>Project</h1>
+        </div>
+        
+        <div class="project">
+            <h2>Image Gallery</h2>
+            <p><strong>Description:</strong> Image gallery: This project is based on a Gallery of Images where users can see a collection of birds and monuments.</p>
+            <p><strong>Tools & Technologies:</strong> 
+                <br>
+                <b>HTML :</b> Structure of the image gallery.
+                <br>
+                <b>CSS :</b> Styling for layout, image positioning, and hover effects.
+                <br>
+                <b>JavaScript :</b> Adding text animations for category changes.
+            </p>
+            <a href="https://sayan1812.github.io/Our_image_gallery/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h2>Calculator</h2>
+            <p><strong>Description:</strong> This project is a Basic Calculator that performs essential arithmetic operations such as addition, subtraction, multiplication, and division. It has a user-friendly interface with buttons for input and a display screen to show results.</p>
+            <p><strong>Tools & Technologies:</strong> <br>
+                <b>HTML:</b> To create the structure of the
+                calculator (buttons and display screen).
+                <br>
+                <b>CSS: </b>For styling, layout, and making the
+                calculator visually appealing.
+                <br>
+                <b>JavaScript:</b> To handle the logic for
+                performing arithmetic calculations and
+                updating the display.
+                
+            </p>
+            <a href="https://sayan1812.github.io/Calculator/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h2>Music Player</h2>
+            <p><strong>Description:</strong> This is a sleek and minimal web-based music player that allows users to play, pause, and switch between songs with a dynamic progress bar and rotating CD animation. It also features a song list with a "More Options" menu for each track.</p>
+            <p><strong>Tools & Technologies:</strong> 
+                <b>HTML</b> - for structuring the UI
+                <br>
+                <b>CSS</b> - for styling, layout, and animations
+                <br>
+                <b>JavaScript</b>  - for functionality like play/pause, next/prev song, progress tracking, and dynamic song list rendering</p>
+            <a href="https://sayan1812.github.io/Music-Player/" target="_blank">View Project</a>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-form">
+        <h1>Contact Me</h1>
+        <form id="contactForm">
+            <label for="name"><b>Name</b></label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    
+            <label for="email"><b>Email</b></label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    
+            <label for="message"><b>Message</b></label>
+            <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+    
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/priyanshu-halder-849933278/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/sayan1812" target="_blank">GitHub</a>
+            <!-- <a href="https://github.com/sayan1812" target="_blank">Twitter</a> -->
+        </div>
+        <small>© 2024 Priyanshu's Portfolio | All rights reserved</small>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
